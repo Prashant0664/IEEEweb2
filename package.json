@@ -1,0 +1,24 @@
+{
+  "name": "ieee-dtu",
+  "version": "1.0.0",
+  "description": "IEEE WEBSITE",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NitinPatel2001/IEEE_DTU.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NitinPatel2001/IEEE_DTU/issues"
+  },
+  "homepage": "https://github.com/NitinPatel2001/IEEE_DTU#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "mongoose": "^6.8.0"
+  }
+}
