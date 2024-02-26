@@ -11,6 +11,18 @@ html {
   text-align: center;
   padding: 10px;
 }
+.btn--stroke-2,
+button.btn--stroke-2 {
+  background: transparent !important;
+  border: 0.2rem solid black;
+  color: black;
+}
+
+.btn--stroke-2:hover,
+button.btn--stroke-2:hover {
+  background: black !important;
+  color: white !important;
+}
 
 .grid-container_2 {
   display: grid;
@@ -3551,4 +3563,19 @@ footer .row {
   .container .box:hover .imgBox {
     transform: translate(0, -6rem);
   }
+}
+
+
+
+/* FOR THE RESPONSIVE FORMS */
+@media screen and (max-width: 510px) {
+  .formclassbigscreen{
+    display:none;
+  }
+}
+@media screen and (min-width: 510px) {
+  .formclasssmallscreen{
+    display:none;
+  }
+  
 }
